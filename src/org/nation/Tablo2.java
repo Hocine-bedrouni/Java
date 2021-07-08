@@ -14,8 +14,10 @@ public class Tablo2 {
         boolean exist = true;
         int pos = 0;
         System.out.println(Arrays.toString(tab));
+        System.out.println("Entrer un prénom du tableau");
+        String name = scan.nextLine();
         for (int i = 0; i < tab.length; i++){
-            if (tab[i].equals("Trunk") && exist){
+            if (tab[i].equals(name) && exist){
 
            exist = false;
            pos = i;
