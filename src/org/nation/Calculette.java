@@ -6,7 +6,7 @@ import static java.lang.Character.getNumericValue;
 
 public class Calculette {
 
-    public static void main(String[] args) {
+    public static void calculette() {
         int nb1;
         int nb2;
         char op;

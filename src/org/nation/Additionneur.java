@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Additionneur {
 
 
-    public static void main (String args[]){
+    public static void additionneur (){
 
         int ch1;
         int ch2;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Diviseur {
 
-    public static void main (String[] args){
+    public static void diviseur (){
 
         float ch1;
         float ch2;
