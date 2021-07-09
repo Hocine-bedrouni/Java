@@ -45,15 +45,21 @@ public class Exo1 {
 //                System.out.println("Ceci est une multiplication");
 //                System.out.println("Le resultat est : "+result);}
 
-            case '/' -> result = val1 / val2;
+            case '/' -> {
+                if (val2 == 0) {
+                    System.out.println(" division par zero impossible");
+                } else {
+                    result = val1 / val2;
+                }
+            }
 //                System.out.println("Ceci est une division");
 //                System.out.println("Le resultat est : "+result);}
 
-            default -> System.out.println("L'opérateur donné est tout pourri");
-        };
+                default -> System.out.println("L'opérateur donné est tout pourri");
+            };
 
-        return result;
+            return result;
+        }
     }
 
-}
 

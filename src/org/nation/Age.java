@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Age {
 
-    public static void main(String[] args) {
+    public static void age() {
 
         Scanner scan = new Scanner(System.in);
         int cetanne = Calendar.getInstance().get(Calendar.YEAR);
